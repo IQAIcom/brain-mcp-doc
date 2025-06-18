@@ -4,10 +4,6 @@ description: Smart contract ABI interactions for Ethereum-compatible blockchains
 # layout: ../../layouts/DocLayout.astro
 ---
 
-# MCP-ABI: ABI Generation Tool
-
-## MCP-ABI
-
 **Package**: `@iqai/mcp-abi`  
 **Purpose**: Smart contract ABI interactions for Ethereum-compatible blockchains
 

@@ -1,14 +1,10 @@
 ---
 title: MCP-ODOS
-description: Smart contract ABI interactions for Ethereum-compatible blockchains
+description: Interact with decentralized exchanges through ODOS aggregation
 # layout: ../../layouts/DocLayout.astro
 ---
 
-# MCP-ABI: ABI Generation Tool
-
-## MCP-ODOS
-
-**Package**: `mcp-odos`  
+**Package**: `@iqai/mcp-odos`  
 **Purpose**: Interact with decentralized exchanges through ODOS aggregation
 
 ### Available Tools

@@ -1,12 +1,8 @@
 ---
 title: MCP-ATP
-description: Smart contract ABI interactions for Ethereum-compatible blockchains
+description: Interact with the IQ AI Agent Tokenization Platform
 # layout: ../../layouts/DocLayout.astro
 ---
-
-# MCP-ABI: ABI Generation Tool
-
-## MCP-ATP
 
 **Package**: `@iqai/mcp-atp`  
 **Purpose**: Interact with the IQ AI Agent Tokenization Platform

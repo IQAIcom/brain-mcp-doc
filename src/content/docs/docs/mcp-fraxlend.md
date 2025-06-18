@@ -1,12 +1,8 @@
 ---
 title: MCP-FRAXLEND
-description: Smart contract ABI interactions for Ethereum-compatible blockchains
+description: Interact with the Fraxlend lending platform
 # layout: ../../layouts/DocLayout.astro
 ---
-
-# MCP-ABI: ABI Generation Tool
-
-## MCP-Fraxlend
 
 **Package**: `@iqai/mcp-fraxlend`  
 **Purpose**: Interact with the Fraxlend lending platform

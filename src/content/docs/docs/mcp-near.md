@@ -1,12 +1,8 @@
 ---
 title: MCP-NEAR
-description: Smart contract ABI interactions for Ethereum-compatible blockchains
+description: NEAR Protocol blockchain integration with AI-driven event processing
 # layout: ../../layouts/DocLayout.astro
 ---
-
-# MCP-ABI: ABI Generation Tool
-
-## MCP-NEAR
 
 **Package**: `@iqai/mcp-near`  
 **Purpose**: NEAR Protocol blockchain integration with AI-driven event processing
