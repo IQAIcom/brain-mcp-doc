@@ -17,7 +17,7 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'MCPs',
+					label: 'IQ AI MCP Servers',
 					autogenerate: { directory: 'docs' },
 				},
 			],
