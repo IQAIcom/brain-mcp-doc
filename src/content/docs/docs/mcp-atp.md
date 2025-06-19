@@ -7,41 +7,41 @@ description: Interact with the IQ AI Agent Tokenization Platform
 **Package**: `@iqai/mcp-atp`  
 **Purpose**: Interact with the IQ AI Agent Tokenization Platform
 
-### Available Tools
+### 🔧 Available Tools
 
-#### `ATP_AGENT_STATS`
+##### `ATP_AGENT_STATS`
 
 Fetch statistics and details for a specific AI agent:
 
 - Parameters: `tokenContract` (string)
 
-#### `ATP_GET_AGENT_POSITIONS`
+##### `ATP_GET_AGENT_POSITIONS`
 
 Retrieve the user's current holdings in ATP AI tokens:
 
 - Requires: `ATP_WALLET_PRIVATE_KEY`
 
-#### `ATP_BUY_AGENT`
+##### `ATP_BUY_AGENT`
 
 Purchase AI agent tokens using IQ as the base currency:
 
 - Parameters: `tokenContract` (string), `amount` (string)
 - Requires: `ATP_WALLET_PRIVATE_KEY`
 
-#### `ATP_SELL_AGENT`
+##### `ATP_SELL_AGENT`
 
 Sell AI agent tokens back to the protocol:
 
 - Parameters: `tokenContract` (string), `amount` (string)
 - Requires: `ATP_WALLET_PRIVATE_KEY`
 
-#### `ATP_GET_AGENT_LOGS`
+##### `ATP_GET_AGENT_LOGS`
 
 Retrieve logs for a specific AI agent, with pagination:
 
 - Parameters: `agentTokenContract` (string), `page` (number, optional), `limit` (number, optional)
 
-#### `ATP_ADD_AGENT_LOG`
+##### `ATP_ADD_AGENT_LOG`
 
 Add a new log entry for a specific AI agent:
 
@@ -68,3 +68,7 @@ Add a new log entry for a specific AI agent:
   }
 }
 ```
+
+### Usage Examples
+
+### Response Examples

@@ -7,7 +7,11 @@ description: Interact with decentralized exchanges through ODOS aggregation
 **Package**: `@iqai/mcp-odos`  
 **Purpose**: Interact with decentralized exchanges through ODOS aggregation
 
-### Available Tools
+### Features
+
+### Dynamic Tool Generation
+
+### 🔧 Available Tools
 
 #### `ODOS_GET_QUOTE`
 
@@ -31,6 +35,11 @@ Execute a swap:
   - `quote` (string): The quote from the get-quote service
   - `walletProvider` (string): The wallet provider to use
 
+### Environment Variables
+
+- `WALLET_PRIVATE_KEY`: Required for `LEND`, `BORROW`, `ADD_COLLATERAL`, `REMOVE_COLLATERAL`, `REPAY`, `WITHDRAW`
+- The private key of the wallet to be used for interacting with the Fraxlend platform (e.g., signing transactions for lending, borrowing, etc.).
+
 ### Configuration Example
 
 ```json
@@ -46,3 +55,7 @@ Execute a swap:
   }
 }
 ```
+
+### Usage Examples
+
+### Response Examples

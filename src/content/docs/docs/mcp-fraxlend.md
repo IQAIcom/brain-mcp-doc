@@ -7,61 +7,66 @@ description: Interact with the Fraxlend lending platform
 **Package**: `@iqai/mcp-fraxlend`  
 **Purpose**: Interact with the Fraxlend lending platform
 
-### Available Tools
+### 🔧 Available Tools
 
-#### `LENDING_STATS`
+##### `LENDING_STATS`
 
 Fetch statistics for a specific Fraxlend pair:
 
 - Parameters: `pairAddress` (string)
 
-#### `LEND`
+##### `LEND`
 
 Lend assets to a specific Fraxlend pair:
 
 - Parameters: `pairAddress` (string), `amount` (string)
 - Requires: `WALLET_PRIVATE_KEY`
 
-#### `BORROW`
+##### `BORROW`
 
 Borrow assets from a specific Fraxlend pair:
 
 - Parameters: `pairAddress` (string), `amount` (string)
 - Requires: `WALLET_PRIVATE_KEY`
 
-#### `ADD_COLLATERAL`
+##### `ADD_COLLATERAL`
 
 Add collateral to a specific Fraxlend pair:
 
 - Parameters: `pairAddress` (string), `amount` (string)
 - Requires: `WALLET_PRIVATE_KEY`
 
-#### `REMOVE_COLLATERAL`
+##### `REMOVE_COLLATERAL`
 
 Remove collateral from a specific Fraxlend pair:
 
 - Parameters: `pairAddress` (string), `amount` (string)
 - Requires: `WALLET_PRIVATE_KEY`
 
-#### `REPAY`
+##### `REPAY`
 
 Repay borrowed assets to a specific Fraxlend pair:
 
 - Parameters: `pairAddress` (string), `amount` (string)
 - Requires: `WALLET_PRIVATE_KEY`
 
-#### `WITHDRAW`
+##### `WITHDRAW`
 
 Withdraw lent assets from a specific Fraxlend pair:
 
 - Parameters: `pairAddress` (string), `amount` (string)
 - Requires: `WALLET_PRIVATE_KEY`
 
-#### `PAIR_ADDRESS`
+##### `PAIR_ADDRESS`
 
 Get the pair address for a specific Fraxlend pair:
 
 - Parameters: `collateralToken` (string), `borrowedToken` (string)
+
+### Environment Variables
+
+- `WALLET_PRIVATE_KEY`: Required for `LEND`, `BORROW`, `ADD_COLLATERAL`, `REMOVE_COLLATERAL`, `REPAY`, `WITHDRAW`
+- The private key of the wallet to be used for interacting with the Fraxlend platform (e.g., signing transactions for lending, borrowing, etc.).
 
 ### Configuration Example
 
@@ -78,3 +83,7 @@ Get the pair address for a specific Fraxlend pair:
   }
 }
 ```
+
+### Usage Examples
+
+### Response Examples

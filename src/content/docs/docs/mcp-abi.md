@@ -56,7 +56,7 @@ The server automatically creates tools for each function in the provided ABI:
 }
 ```
 
-### Usage Examples
+### 🎯 Usage Examples
 
 #### ERC20 Token Contract
 
@@ -71,7 +71,7 @@ The server automatically creates tools for each function in the provided ABI:
 - **Transfer NFT**: `NFT_TRANSFER_FROM` with from, to, and token ID
 - **Mint token**: `NFT_MINT` with recipient and metadata
 
-### Response Examples
+### 📊 Response Examples
 
 **Read Function Response**:
 
@@ -87,3 +87,15 @@ Result: "1000000000000000000"
 Transaction hash: 0x123abc...
 You can view this transaction on the blockchain explorer.
 ```
+
+### ❌ Error Handling
+
+The server provides comprehensive error handling for various blockchain interaction scenarios:
+
+- 🚨 **Invalid function arguments** - "❌ Error parsing arguments: [specific error]"
+- 🔄 **Transaction failures** - "❌ Error with [function]: [error message]"
+- 🔒 **Access control errors** - "❌ Error with [function]: execution reverted"
+- 🌐 **Network errors** - "❌ Error with [function]: network connection failed"
+- 💲 **Insufficient funds** - "❌ Error with [function]: insufficient funds for gas"
+- 📄 **ABI parsing errors** - "❌ Invalid ABI format: [specific error]"
+- 🏠 **Contract address errors** - "❌ Invalid contract address: [address]"

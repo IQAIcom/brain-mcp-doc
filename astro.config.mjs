@@ -6,14 +6,21 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Brain MCP Docs',
+			description: 'Documentation for the Brain MCP servers and tools.',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			logo: {
+				dark: "./src/assets/brain-logo-dark.svg",
+				light: "./src/assets/brain-logo-light.svg",
+				replacesTitle: true,
+			},
+			customCss: ["./src/styles/custom.css"],
 			sidebar: [
 				{
 					label: 'Get Started',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Overview', slug: 'guides/overview' },
+						{ label: 'Overview', slug: 'get-started/overview' },
 					],
 				},
 				{
