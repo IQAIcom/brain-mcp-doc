@@ -11,7 +11,7 @@ description: Model Context Protocol Server for Borrow Automated Market Maker
 - Allows MCP-compatible clients to manage BAMM positions, borrow against LP tokens, and perform other operations related to the BAMM protocol.
 - Built using TypeScript and `fastmcp`.
 
-### Dynamic Tool Generation
+### 🔧 Available Tools
 
 The server exposes the following tools that MCP clients can utilize:
 
