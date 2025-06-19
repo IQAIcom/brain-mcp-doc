@@ -52,6 +52,16 @@ Execute a swap:
 }
 ```
 
-### Usage Examples
+### 🎯 Usage Examples
 
-### Response Examples
+##### 📊 `GET_SWAP_QUOTE`
+
+- "Get me a quote for swapping 1 wfrxEth to FRAX on Fraxtal"
+- "What rate would I get for trading 0.5 ETH to USDC?"
+- "Check current exchange rate between DAI and FXS"
+
+##### 💱 `EXECUTE_TOKEN_SWAP`
+
+- "Swap 100 DAI to FXS"
+- "Exchange 0.1 ETH for USDT"
+- "Trade my wfrxEth for FRAX"

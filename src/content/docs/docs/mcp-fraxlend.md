@@ -84,6 +84,21 @@ Get the pair address for a specific Fraxlend pair:
 }
 ```
 
-### Usage Examples
+### 📜 Response Format
 
-### Response Examples
+Actions return **structured responses**, including:
+
+✔ **Transaction status & hash** (for lending/borrowing) 🔗  
+✔ **Formatted asset amounts** 💲  
+✔ **Error messages when applicable** ⚠  
+✔ **Lending market details** 📈
+
+### ❌ Error Handling
+
+The plugin **handles various error scenarios**:
+
+🚨 **Invalid market addresses**  
+💸 **Insufficient collateral or liquidity**  
+🔄 **Transaction failures**  
+🌐 **Network issues**  
+🛑 **Input validation errors**

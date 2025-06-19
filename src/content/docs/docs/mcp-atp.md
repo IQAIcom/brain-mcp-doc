@@ -69,6 +69,29 @@ Add a new log entry for a specific AI agent:
 }
 ```
 
-### Usage Examples
+### 💬 Usage Examples
 
-### Response Examples
+- "Add log for agent `0x1234...5678`: Just executed weekly yield distribution"
+- "Create log entry for Frax God: Updated pricing model" _(Works only if token contract found in previous messages)_
+- "Log for agent `0x1234...5678` with transaction hash `0xabc...def`: Distribution complete"
+
+### 📜 Response Format
+
+Actions return **structured responses** including:
+
+✔ **Transaction status & hash** (for trades) 🔗  
+✔ **Formatted token amounts** 💲  
+✔ **Error messages when applicable** ⚠  
+✔ **Agent addresses and statistics** 🏷  
+✔ **Formatted agent logs** 📄
+
+### ❌ Error Handling
+
+The plugin **handles various error scenarios**:
+
+🚨 **Invalid token contracts**  
+💸 **Insufficient balances**  
+🔄 **Transaction failures**  
+🌐 **Network issues**  
+🛑 **Input validation errors**  
+🔑 **Missing API key for log creation**
