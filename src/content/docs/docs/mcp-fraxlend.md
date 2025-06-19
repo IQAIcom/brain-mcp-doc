@@ -4,7 +4,7 @@ description: Interact with the Fraxlend lending platform
 # layout: ../../layouts/DocLayout.astro
 ---
 
-**Package**: `@iqai/mcp-fraxlend`  
+**Package**: [`@iqai/mcp-fraxlend`](https://www.npmjs.com/package/@iqai/mcp-fraxlend)  
 **Purpose**: Interact with the Fraxlend lending platform
 
 ### 🔧 Available Tools

@@ -4,7 +4,7 @@ description: NEAR Protocol blockchain integration with AI-driven event processin
 # layout: ../../layouts/DocLayout.astro
 ---
 
-**Package**: `@iqai/mcp-near`  
+**Package**: [`@iqai/mcp-near`](https://www.npmjs.com/package/@iqai/mcp-near)  
 **Purpose**: NEAR Protocol blockchain integration with AI-driven event processing
 
 ### Key Features

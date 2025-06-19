@@ -4,16 +4,12 @@ description: Interact with decentralized exchanges through ODOS aggregation
 # layout: ../../layouts/DocLayout.astro
 ---
 
-**Package**: `@iqai/mcp-odos`  
+**Package**: [`@iqai/mcp-odos`](https://www.npmjs.com/package/@iqai/mcp-odos)  
 **Purpose**: Interact with decentralized exchanges through ODOS aggregation
-
-### Features
-
-### Dynamic Tool Generation
 
 ### 🔧 Available Tools
 
-#### `ODOS_GET_QUOTE`
+##### `ODOS_GET_QUOTE`
 
 Fetch a quote for a swap:
 
@@ -23,7 +19,7 @@ Fetch a quote for a swap:
   - `buyToken` (string): The token you want to buy
   - `sellAmount` (string): The amount of tokens you want to sell
 
-#### `ODOS_EXECUTE_SWAP`
+##### `ODOS_EXECUTE_SWAP`
 
 Execute a swap:
 

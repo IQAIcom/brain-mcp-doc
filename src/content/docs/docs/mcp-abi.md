@@ -4,7 +4,7 @@ description: Smart contract ABI interactions for Ethereum-compatible blockchains
 # layout: ../../layouts/DocLayout.astro
 ---
 
-**Package**: `@iqai/mcp-abi`  
+**Package**: [`@iqai/mcp-abi`](https://www.npmjs.com/package/@iqai/mcp-abi)  
 **Purpose**: Smart contract ABI interactions for Ethereum-compatible blockchains
 
 ### Features

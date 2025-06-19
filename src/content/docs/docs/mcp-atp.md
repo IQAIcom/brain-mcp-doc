@@ -4,7 +4,7 @@ description: Interact with the IQ AI Agent Tokenization Platform
 # layout: ../../layouts/DocLayout.astro
 ---
 
-**Package**: `@iqai/mcp-atp`  
+**Package**: [`@iqai/mcp-atp`](https://www.npmjs.com/package/@iqai/mcp-atp)  
 **Purpose**: Interact with the IQ AI Agent Tokenization Platform
 
 ### 🔧 Available Tools
