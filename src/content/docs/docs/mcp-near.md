@@ -69,42 +69,6 @@ List all currently watched events and statistics:
 | `NEAR_NODE_URL`   | Custom NEAR RPC endpoint (optional)                                    |
 | `NEAR_GAS_LIMIT`  | Gas limit for transactions (optional)                                  |
 
-### Available Tools
-
-#### `watch_near_event`
-
-Start watching for specific events on a NEAR contract:
-
-```json
-{
-  "eventName": "run_agent",
-  "contractId": "contract.testnet",
-  "responseMethodName": "agent_response",
-  "cronExpression": "*/10 * * * * *"
-}
-```
-
-#### `stop_watching_near_event`
-
-Stop watching for specific events:
-
-```json
-{
-  "contractId": "contract.testnet",
-  "eventName": "run_agent"
-}
-```
-
-#### `list_watched_near_events`
-
-List all currently watched events and statistics:
-
-```json
-{
-  "includeStats": true
-}
-```
-
 ### Configuration Example
 
 ```json
