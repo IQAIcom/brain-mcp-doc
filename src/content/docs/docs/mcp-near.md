@@ -51,13 +51,25 @@ List all currently watched events and statistics:
 }
 ```
 
-### AI-Driven Event Processing Workflow
+### 🤖 AI-Driven Event Processing Workflow
+
+The server enables an "AI in the loop" workflow:
 
 1. 🔗 Smart contract transaction triggers an event and pauses execution
 2. 🤖 MCP server detects the event and requests AI processing from the client
 3. 🧠 AI client processes the event data and provides intelligent response
 4. ↩️ Server sends AI response back to blockchain via transaction
 5. ✅ Original smart contract resumes with the AI-provided data
+
+### 🌜 Event Processing Flow
+
+When a blockchain event is detected:
+
+1. 📡 **Event Detection**: Server monitors blockchain for specified events
+2. 🤖 **AI Request**: Server requests sampling from MCP client with event data
+3. 🧠 **AI Processing**: Client processes event and returns intelligent response
+4. 📤 **Blockchain Response**: Server sends AI response back to contract
+5. 📊 **Statistics**: Performance metrics are tracked and available
 
 ### Environment Variables
 
@@ -99,16 +111,6 @@ List all currently watched events and statistics:
    ```
 3. **AI processes events automatically** when they occur on the blockchain
 4. **Monitor with** `list_watched_near_events` to see status and statistics
-
-### 🌜 Event Processing Flow
-
-When a blockchain event is detected:
-
-1. 📡 **Event Detection**: Server monitors blockchain for specified events
-2. 🤖 **AI Request**: Server requests sampling from MCP client with event data
-3. 🧠 **AI Processing**: Client processes event and returns intelligent response
-4. 📤 **Blockchain Response**: Server sends AI response back to contract
-5. 📊 **Statistics**: Performance metrics are tracked and available
 
 ### 📊 Response Format
 
