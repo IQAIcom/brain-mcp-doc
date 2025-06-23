@@ -15,7 +15,7 @@ description: Smart contract ABI interactions for Ethereum-compatible blockchains
 - Compatible with any Ethereum-compatible blockchain
 - Comprehensive error handling and transaction management
 
-### Dynamic Tool Generation
+### 🔧 Available Tools
 
 The server automatically creates tools for each function in the provided ABI:
 
