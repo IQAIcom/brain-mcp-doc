@@ -27,6 +27,10 @@ export default defineConfig({
 					label: 'IQ AI MCP Servers',
 					autogenerate: { directory: 'docs' },
 				},
+				{
+					label: 'IQ ADK',
+					autogenerate: { directory: 'docs/adk-docs' },
+				},
 			],
 		}),
 	],

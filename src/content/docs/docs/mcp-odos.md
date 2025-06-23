@@ -7,6 +7,12 @@ description: Interact with decentralized exchanges through ODOS aggregation
 **Package**: [`@iqai/mcp-odos`](https://www.npmjs.com/package/@iqai/mcp-odos)  
 **Purpose**: Interact with decentralized exchanges through ODOS aggregation
 
+### ✨ Features
+
+- Interact with decentralized exchanges through ODOS aggregation
+- Fetch a quote for a swap
+- Execute a swap
+
 ### 🔧 Available Tools
 
 ##### `ODOS_GET_QUOTE`

@@ -7,6 +7,16 @@ description: Interact with the IQ AI Agent Tokenization Platform
 **Package**: [`@iqai/mcp-atp`](https://www.npmjs.com/package/@iqai/mcp-atp)  
 **Purpose**: Interact with the IQ AI Agent Tokenization Platform
 
+### ✨ Features
+
+- Interact with the IQ AI Agent Tokenization Platform
+- Fetch statistics and details for a specific AI agent
+- Retrieve the user's current holdings in ATP AI tokens
+- Purchase AI agent tokens using IQ as the base currency
+- Sell AI agent tokens back to the protocol
+- Retrieve logs for a specific AI agent, with pagination
+- Add a new log entry for a specific AI agent
+
 ### 🔧 Available Tools
 
 ##### `ATP_AGENT_STATS`

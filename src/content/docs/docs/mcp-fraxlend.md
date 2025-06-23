@@ -7,6 +7,18 @@ description: Interact with the Fraxlend lending platform
 **Package**: [`@iqai/mcp-fraxlend`](https://www.npmjs.com/package/@iqai/mcp-fraxlend)  
 **Purpose**: Interact with the Fraxlend lending platform
 
+### ✨ Features
+
+- Interact with the Fraxlend lending platform
+- Fetch statistics for a specific Fraxlend pair
+- Lend assets to a specific Fraxlend pair
+- Borrow assets from a specific Fraxlend pair
+- Add collateral to a specific Fraxlend pair
+- Remove collateral from a specific Fraxlend pair
+- Repay borrowed assets to a specific Fraxlend pair
+- Withdraw lent assets from a specific Fraxlend pair
+- Get the pair address for a specific Fraxlend pair
+
 ### 🔧 Available Tools
 
 ##### `LENDING_STATS`
