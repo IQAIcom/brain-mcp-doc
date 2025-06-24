@@ -110,8 +110,15 @@ await client.runTool("GET_POSITIONS", {});
 
 ### 📊 Response Examples
 
-N/A - Response examples will be provided by the MCP client.
+`{ "txHash": "0x..." }`
+
+`📊 *Your Active BAMM Positions*\n\n**💰 BAMM Position**\n- bamm: 0x...\n- Pair: 0x...\n- FRAX: 100\n- USDC: 200\n- rented: 0`
 
 ### ❌ Error Handling
 
-N/A - Error handling will be provided by the MCP client.
+```
+`❌ Failed to retrieve positions: Failed to fetch pool details: Not Found`
+`Error: Pool stats not available`
+`Error: Remove collateral amount must be greater than 0`
+`Error: Withdraw amount must be greater than 0`
+```
