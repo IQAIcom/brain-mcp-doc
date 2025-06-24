@@ -29,7 +29,11 @@ export default defineConfig({
 				},
 				{
 					label: 'IQ ADK',
-					autogenerate: { directory: 'docs/adk-docs' },
+					autogenerate: { directory: 'adk-docs' },
+					// items: [
+					// 	// Each item here is one entry in the navigation menu.
+					// 	{ label: 'Overview', slug: 'adk-docs/adk' },
+					// ],
 				},
 			],
 		}),

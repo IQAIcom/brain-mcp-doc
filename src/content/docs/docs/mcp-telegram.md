@@ -1,5 +1,5 @@
 ---
-title: MCP-Telegram
+title: 📱 MCP Telegram
 description: An MCP server for interacting with Telegram bots and channels.
 ---
 

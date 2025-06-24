@@ -1,5 +1,5 @@
 ---
-title: MCP-FRAXLEND
+title: 💰 MCP FRAXLEND
 description: Interact with the Fraxlend lending platform
 # layout: ../../layouts/DocLayout.astro
 ---

@@ -1,5 +1,5 @@
 ---
-title: MCP-ATP
+title: ⚡ MCP ATP
 description: Interact with the IQ AI Agent Tokenization Platform
 # layout: ../../layouts/DocLayout.astro
 ---

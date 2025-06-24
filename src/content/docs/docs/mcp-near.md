@@ -1,5 +1,5 @@
 ---
-title: MCP-NEAR
+title: 💫 MCP NEAR
 description: NEAR Protocol blockchain integration with AI-driven event processing
 # layout: ../../layouts/DocLayout.astro
 ---

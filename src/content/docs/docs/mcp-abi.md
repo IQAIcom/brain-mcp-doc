@@ -1,5 +1,5 @@
 ---
-title: MCP-ABI
+title: 🔗 MCP ABI
 description: Smart contract ABI interactions for Ethereum-compatible blockchains
 # layout: ../../layouts/DocLayout.astro
 ---

@@ -1,5 +1,5 @@
 ---
-title: MCP-ODOS
+title: 🔄 MCP ODOS
 description: Interact with decentralized exchanges through ODOS aggregation
 # layout: ../../layouts/DocLayout.astro
 ---

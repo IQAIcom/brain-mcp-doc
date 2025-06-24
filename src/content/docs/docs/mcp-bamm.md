@@ -1,5 +1,5 @@
 ---
-title: MCP-BAMM
+title: 💰 MCP BAMM
 description: Model Context Protocol Server for Borrow Automated Market Maker
 ---
 

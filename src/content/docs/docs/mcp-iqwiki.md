@@ -1,5 +1,5 @@
 ---
-title: MCP-IQWiki
+title: 📜 MCP IQWiki
 description: Model Context Protocol Server for IQ.wiki
 ---
 
