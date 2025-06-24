@@ -103,6 +103,32 @@ If you have installed `mcp-iqwiki` globally, you can simplify the command:
 }
 ```
 
+### 📊 Response Examples
+
+```📜 Wiki Edited
+- Title: Bitcoin
+- Summary: Bitcoin is a decentralized digital currency...
+- Edited: 5/6/2023, 1:26:58 AM
+- Changes: 52 words (21.36%)
+- Modified sections: content, tags
+
+🔗 Source: https://iq.wiki/revision/0f9ed751-f46a-40f7-af56-a54cc8951754
+🔗 Transaction: https://polygonscan.com/tx/0xabc...
+
+📜 Wiki Created
+- Title: Ethereum
+- Summary: Ethereum is a decentralized platform...
+- Created: 5/5/2023, 11:03:26 PM
+
+🔗 Source: https://iq.wiki/ethereum
+🔗 Transaction: https://polygonscan.com/tx/0x456...
+
+```
+
 ### ❌ Error Handling
 
-N/A - Error handling will be provided by the MCP client.
+```
+Error retrieving user wiki activities: User has no wiki activities
+Error retrieving user edited wikis: user does not exist
+Error retrieving wiki: Wiki Not found
+```

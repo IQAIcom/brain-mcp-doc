@@ -58,7 +58,7 @@ Execute a swap:
 }
 ```
 
-### 🎯 Usage Examples
+### 💬 Usage Examples
 
 ##### 📊 `GET_SWAP_QUOTE`
 
@@ -71,3 +71,34 @@ Execute a swap:
 - "Swap 100 DAI to FXS"
 - "Exchange 0.1 ETH for USDT"
 - "Trade my wfrxEth for FRAX"
+
+### 📊 Response Examples
+
+```json
+💱 Quote Details
+{
+  "inTokens": ["0x..."],
+  "outTokens": ["0x..."],
+  "inAmounts": ["1000000000000000000"],
+  "outAmounts": ["990000000000000000"],
+  "pathId": "0x...",
+  "gasEstimate": 200000,
+  "gasEstimateValue": 0.1,
+  "netOutValue": 100,
+  "priceImpact": 0.01
+}
+```
+
+### ❌ Error Handling
+
+The server provides detailed error messages to help diagnose issues. Errors typically include a `detail` message, a `traceId` for debugging, and an `errorCode`.
+
+Example Error Response:
+
+```json
+{
+  "detail": "Failed to fetch quote: invalid fromToken address",
+  "traceId": "...",
+  "errorCode": "INVALID_ADDRESS"
+}
+```
