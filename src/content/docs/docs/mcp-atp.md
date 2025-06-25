@@ -5,7 +5,8 @@ description: Interact with the IQ AI Agent Tokenization Platform
 ---
 
 **Package**: [`@iqai/mcp-atp`](https://www.npmjs.com/package/@iqai/mcp-atp)  
-**Purpose**: Interact with the IQ AI Agent Tokenization Platform
+**Purpose**: Interact with the IQ AI Agent Tokenization Platform  
+**Check out ATP Investment Agent**: 🚀 [MCP-ATP Agent Example](https://github.com/IQAIcom/adk-ts/tree/main/apps/examples/src/mcp-atp-agent)
 
 ### ✨ Features
 

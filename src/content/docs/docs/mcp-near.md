@@ -1,10 +1,10 @@
 ---
-title: 💫 MCP NEAR
+title: 💫 MCP NEAR Agents
 description: NEAR Protocol blockchain integration with AI-driven event processing
 # layout: ../../layouts/DocLayout.astro
 ---
 
-**Package**: [`@iqai/mcp-near`](https://www.npmjs.com/package/@iqai/mcp-near)  
+**Package**: [`@iqai/mcp-near`](https://www.npmjs.com/package/@iqai/mcp-near-agent)  
 **Purpose**: NEAR Protocol blockchain integration with AI-driven event processing
 
 ### Key Features
